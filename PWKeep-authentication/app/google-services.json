@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "528537060052",
+    "firebase_url": "https://pwdkeeper-61109.firebaseio.com",
+    "project_id": "pwdkeeper-61109",
+    "storage_bucket": "pwdkeeper-61109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528537060052:android:5bf3adb860e026084a7141",
+        "android_client_info": {
+          "package_name": "com.example.pwdkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528537060052-obhbsg1bv7rrqvob7plm4j324qdkuj6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pwdkeeper",
+            "certificate_hash": "b41f8d229f30c396cf9e6a29f2ab692fcb552fd1"
+          }
+        },
+        {
+          "client_id": "528537060052-smga5grclneikmolv2edavtj32hf10du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB_rRf9oEsQ7B-Jr2nE8neRFMmIe9hfD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528537060052-smga5grclneikmolv2edavtj32hf10du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

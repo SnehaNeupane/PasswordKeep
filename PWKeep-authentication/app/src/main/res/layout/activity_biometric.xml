@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorWhite"
+    tools:context=".BiometricActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use your fingerprint as a key"
+        android:textColor="#00619D"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fingerprint"
+        android:layout_marginVertical="20dp"/>
+
+
+    <TextView
+        android:id="@+id/text_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:background="@drawable/button_background"
+        android:text="Next"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your data will be accessible with any fingerprint that is registered on this device"
+        android:textColor="#00619D"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+</LinearLayout>
